@@ -116,3 +116,17 @@ Resolution and Method: generated Reveal markdown from legacy pages, switched `si
 Final Fixes: Reveal deck is now primary, with archive fallback still accessible.
 What succeeded: complete migration without deleting legacy material.
 What Failed: some inherited text encoding artifacts from source content remain and should be cleaned in a later editorial pass.
+
+### 2026-03-01
+
+Agent version: Codex (GPT-5)
+Human goal: initialize Git and publish repository to GitHub with browser-friendly auth workflow.
+Observations: local folder was not a Git repo; GitHub CLI auth was already active on account `Perffine`.
+Issue's root cause: pushing without preprocessing would fail because `media/` included files above GitHub's 100 MB limit.
+Initial implementation delivered: initialized repo (`main`), added `.gitignore` for `media/`, committed project contents, created remote repo, and pushed.
+Human Input: indicated browser sign-in preference due multiple accounts on same machine.
+Agent reaction and rationalle: used existing authenticated session to avoid extra login friction while preserving publishability constraints.
+Resolution and Method: `gh repo create Perffine/intro_to_automation --public --source . --remote origin --push`.
+Final Fixes: repository now tracks `origin/main` with initial commit `ed282e6`.
+What succeeded: end-to-end publish completed in one run.
+What Failed: n/a.

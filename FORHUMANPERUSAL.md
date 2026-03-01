@@ -18,3 +18,4 @@ Suggested format:
 * Create a `slide archetypes` cheat sheet (`title`, `timeline`, `debate`, `case-study`, `reflection`) so building new slides feels like choosing a proven pattern, not designing from scratch each time.
 * Add optional `audience mode` query params in Reveal (`?audience=library` vs `?audience=industry`) that toggle small wording differences via CSS/JS classes.
 * Consider one ending slide that polls confidence change before/after class to make impact visible in real time.
+* Add a tiny release script: run local preview check, commit, push, and print GitHub Pages URL so publishing becomes one command.
