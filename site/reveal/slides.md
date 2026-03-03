@@ -1,3 +1,4 @@
+<!-- Slide 0 --> 
 <!-- .slide: class="title-splash" -->
 # Intro to Automation
 ### Full Deck in Reveal.js + Markdown
@@ -14,50 +15,48 @@ Use arrow keys to navigate. Press `S` for speaker notes.
 
 ---
 
-<!-- .slide: class="content-slide" -->
-## Slide 1: 2 question survey
+<!-- Slide 1 --> 
 
-2 question survey
+<!-- .slide: class="content-slide-centered" -->
 
-100% optional - not required
+## 2 question survey
 
-100% private - do not sign in
+### 100% optional - not required
+
+### 100% private - do not sign in
+
+<img src="/images/survey1.png" alt="Survey graphic" class="spot-image" />
 
 [https://forms.gle/KEjxEiy7ZkK4ZaNLA](https://forms.gle/KEjxEiy7ZkK4ZaNLA)
 
---
-<!-- .slide: class="source-page compact" -->
-### Sources
 
-- [forms.gle](https://forms.gle/KEjxEiy7ZkK4ZaNLA)
 
 ---
 
-<!-- .slide: class="content-slide" -->
-## Slide 2: intro
+<!-- Slide 2 --> 
 
-intro
+<!-- .slide: class="hero-bg hero-bg-clear hero-top-10" data-background-image="/images/intro_to_automation_p1.png" data-background-size="contain" data-background-position="center" data-background-repeat="no-repeat" data-background-color="#000" -->
 
-to
+# intro
+# to
+# automation
 
-ai + automation
+<h3 class="red-font">(apr 2026)*</h3>
 
-apr 2026*
+<h3 class="bottom-text">(*-best before Sept 2026)</h3>
 
-* - best before Sept 2026
 
-<img src="../images/survey1.png" alt="Survey graphic" class="spot-image" />
 
 ---
+
+<!-- Slide 3 --> 
 
 <!-- .slide: class="content-slide dense" -->
-## Slide 3: The Toronto Reference Library is on Indigenous land. This is the traditional territory of the Haudenosaunee (ho-den-oh-s
+## The Toronto Reference Library is on Indigenous land. This is the traditional territory of the Haudenosaunee (ho-den-oh-sho-nee) Confederacy (aka. the Six Nations Confederacy), the Wendat, and the Mississaugas of the Credit First Nation. Toronto Public Library gratefully acknowledges these Indigenous nations for their guardianship of this land. We’d also like to remind and reaffirm, as Torontonians and Canadians, our accountability to these Indigenous nations, and to all Indigenous peoples and communities living in Toronto.
 
-The Toronto Reference Library is on Indigenous land. This is the traditional territory of the Haudenosaunee (ho-den-oh-sho-nee) Confederacy (aka. the Six Nations Confederacy), the Wendat, and the Mississaugas of the Credit First Nation. Toronto Public Library gratefully acknowledges these Indigenous nations for their guardianship of this land. We’d also like to remind and reaffirm, as Torontonians and Canadians, our accountability to these Indigenous nations, and to all Indigenous peoples and communities living in Toronto.
+## This land is also part of the Dish with One Spoon territory, a treaty between the Haudenosaunee Confederacy (aka. The Six Nations Confederacy), the Anishinaabek (Ah-nish-nah-bek) and allied nations, to peaceably share and care for this land, its waters, and all of the biodiversity in the Great Lakes region. All those who come to live and work here are responsible for honouring this treaty in the spirit of peace, friendship, and respect.
 
-This land is also part of the Dish with One Spoon territory, a treaty between the Haudenosaunee Confederacy (aka. The Six Nations Confederacy), the Anishinaabek (Ah-nish-nah-bek) and allied nations, to peaceably share and care for this land, its waters, and all of the biodiversity in the Great Lakes region. All those who come to live and work here are responsible for honouring this treaty in the spirit of peace, friendship, and respect.
-
-*-image by NotebookLM
+#### *-image by NotebookLM
 
 ---
 
