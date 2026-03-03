@@ -130,3 +130,29 @@ Resolution and Method: `gh repo create Perffine/intro_to_automation --public --s
 Final Fixes: repository now tracks `origin/main` with initial commit `ed282e6`.
 What succeeded: end-to-end publish completed in one run.
 What Failed: n/a.
+
+### 2026-03-03
+
+Agent version: Codex (GPT-5)
+Human goal: tune early Reveal slides while learning Markdown/CSS slide layout behavior.
+Observations: layout regressions were caused more by content semantics than by one CSS rule; long body copy was authored as `##` headings, which bypassed dense body sizing.
+Issue's root cause: Markdown heading levels (`#`, `##`, `###`) map directly to styled HTML headings, so using headings for paragraph copy creates oversized, high-margin blocks.
+Initial implementation delivered: reworked Slide 3 to use one heading plus paragraph text, and Slide 4 to use compact bullet lists under two headings.
+Human Input: confirmed intent to iterate slide-by-slide and asked for debugging help on visual placement.
+Agent reaction and rationalle: prioritized semantic markdown fixes before adding more CSS overrides to avoid compounding style debt.
+Resolution and Method: replaced heading-style body text with paragraph/list structures in `site/reveal/slides.md`.
+Final Fixes: Slides 3-4 now align with the dense content model used by later slides.
+What succeeded: deck behavior became more predictable with cleaner markdown structure.
+What Failed: some text encoding artifacts still remain in older migrated sections and should be cleaned progressively.
+
+### 2026-03-03 (Follow-up)
+
+Agent version: Codex (GPT-5)
+Human goal: resolve Slide 3 appearing at the bottom edge despite valid markdown content.
+Observations: Reveal rendered slide content correctly in DOM, but computed style assigned `top: 700px` to present sections from Slide 3 onward.
+Issue's root cause: section positioning drift in Reveal stage layout caused visible slides to be offset by one slide-height.
+Resolution and Method: added a scoped position normalization in theme CSS:
+` .reveal .slides > section, .reveal .slides > section > section { top: 0; } `
+Final Fixes: Slide 3 and 4 render in normal viewport position again; Slide 2 hero layout remains intact.
+What succeeded: replicated issue with headless browser, captured computed positions, then fixed with minimal CSS override.
+What Failed: n/a.

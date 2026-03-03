@@ -55,6 +55,11 @@ body {
   text-align: left;
 }
 
+.reveal .slides > section,
+.reveal .slides > section > section {
+  top: 0;
+}
+
 .reveal h1,
 .reveal h2,
 .reveal h3 {
@@ -224,6 +229,8 @@ body {
   box-shadow: none;
   padding: 48px;
   position: relative;
+  height: 100%;
+  box-sizing: border-box;
 }
 
 .reveal section.hero-bg::before {
@@ -236,27 +243,26 @@ body {
 
 .reveal section.hero-bg.hero-bg-clear::before {
   background: rgba(0, 0, 0, 0);
-  
 }
-
 
 .reveal section.hero-bg > * {
   position: relative;
-  left: 40%;
+  left: 45%;
   z-index: 1;
   color: #000000;
   text-align: left;
-  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+  
 }
 
 .reveal section.hero-bg .red-font {
   color: #d90429;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7);
 }
 
 .reveal section.hero-bg .bottom-text {
   position: absolute;
-  left: 40%;      /* keep aligned with your other hero text */
-  bottom: 2vh;   /* 10% up from bottom */
+  left: 35%;    
+  bottom: 1vh;    /* anchored to full slide area */
   margin: 0;
   z-index: 1;
   text-align: left;
