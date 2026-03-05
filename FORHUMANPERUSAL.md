@@ -27,3 +27,10 @@ Suggested format:
 
 ### 2026-03-03 (Follow-up)
 * Add a reusable `.debug-layout` mode in CSS that outlines present slide bounds and prints core computed metrics (top/left/transform) to quickly diagnose Reveal positioning bugs.
+
+### 2026-03-05
+* Consider a tiny "Markdown output map" note in the repo docs showing common Reveal render shapes (`heading + image => h2 + p > img`, lists, code blocks). This could save time when writing slide-specific CSS.
+* Consider adding one "layout sandbox" slide at the end of `slides.md` where you can quickly test combinations like `img-flow-right img-sm` or `img-pin img-top-right img-md` before using them in real content.
+* Consider naming conventions that encode mutually exclusive classes (`img-flow-*` vs `img-pin-*`) and adding one comment in CSS: "Do not combine flow and pin on the same image."
+* Make placement utilities self-sufficient where possible (`img-top-right` should "just work"), and reserve combo classes for advanced cases only.
+* Expose layout breakpoints as CSS variables (`--bp-medium`, `--bp-small`) so class behavior can be tuned once without hunting through media queries.

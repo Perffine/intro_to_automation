@@ -1,8 +1,8 @@
-# Agentic Engineering Class
+# Intro to Automation Class
 
 ## Purpose
 
-Open source class content about Agentic Engineering, presented as a static website.
+Open source class content about Automation, presented as a static website.
 
 Started Feb 28 2026 by Victor Szabo (perr.ca).
 

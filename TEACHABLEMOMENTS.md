@@ -156,3 +156,62 @@ Resolution and Method: added a scoped position normalization in theme CSS:
 Final Fixes: Slide 3 and 4 render in normal viewport position again; Slide 2 hero layout remains intact.
 What succeeded: replicated issue with headless browser, captured computed positions, then fixed with minimal CSS override.
 What Failed: n/a.
+
+### 2026-03-05
+
+Agent version: Codex (GPT-5)
+Human goal: place a slide image to the right of Markdown bullet text on Reveal Slide 4 while preserving Markdown-first authoring.
+Observations: styling the image by `alt` selector and `:has(...)` was brittle in this render flow; image continued to appear as a full-width block above the list.
+Issue's root cause: Reveal Markdown emits the image as a paragraph block directly after the heading (`h2 + p`), so targeting the generated structure is more reliable than semantic image metadata.
+Initial implementation delivered: right-float selectors based on `:has(img)` and later `img[alt="..."]`.
+Human Input: reported visual regression with screenshot showing image still above text.
+Agent reaction and rationalle: switched to structural selectors (`.slide-4 h2 + p` and `.slide-4 h2 + p img`) to style the actual Markdown output shape.
+Resolution and Method: float the first paragraph after the heading right, constrain width/height, and clear before second heading; stack on mobile via media query.
+Final Fixes: Slide 4 layout now uses robust structure-based CSS and keeps slide body mostly pure Markdown.
+What succeeded: faster debugging by inspecting output pattern rather than content labels.
+What Failed: initial assumption that alt-based targeting would be stable.
+
+### 2026-03-05 (Follow-up)
+
+Agent version: Codex (GPT-5)
+Human goal: make image placement reusable across slides (`top-left`, `top-center`, `top-right`, etc.) instead of one-off Slide 4 CSS.
+Observations: per-slide selectors solved one case but did not scale for "move images around" authoring needs.
+Issue's root cause: image placement behavior depended on local markdown order and unique selectors, which is fragile during iterative editing.
+Initial implementation delivered: utility class set in theme (`img-flow-right/left`, `img-pin`, size classes, top position classes, `clear-floats`) plus Slide 4 conversion to class-based usage.
+Resolution and Method: replaced slide-specific CSS with reusable utility classes and mobile-safe fallback (all utilities stack in narrow viewports).
+Final Fixes: image positioning is now class-driven and portable slide-to-slide.
+What succeeded: easier experimentation without writing new CSS per slide.
+What Failed: pure markdown image syntax cannot carry classes, so image placement utilities require an inline `<img ... class=\"...\">`.
+
+### 2026-03-05 (Follow-up 2)
+
+Agent version: Codex (GPT-5)
+Human goal: make Slide 4 image reliably sit beside bullets after utility rollout.
+Observations: slide markup had both `img-pin` and `img-flow-right` on the same element; these are mutually exclusive paradigms.
+Issue's root cause: `img-pin` removes image from normal flow via absolute positioning, so float-based wrapping cannot occur.
+Resolution and Method: removed `img-pin` from Slide 4 image and tightened CSS selectors to target `img` elements directly (`img.img-flow-right`, `img.img-pin`) for clearer rule intent.
+Final Fixes: Slide 4 now uses flow-only placement class stack (`img-flow-right img-sm`) with float clearing before the next heading.
+What succeeded: class semantics are now explicit and less error-prone.
+What Failed: combining positional and flow utilities on one image caused conflicting behavior.
+
+### 2026-03-05 (Follow-up 3)
+
+Agent version: Codex (GPT-5)
+Human goal: make `img-top-right` work by itself (without remembering `img-pin`).
+Observations: coordinate classes (`img-top-*`) set `top/left/right` but were inert unless `position:absolute` was added separately.
+Issue's root cause: utility API required hidden class dependency (`img-top-*` depended on `img-pin`).
+Resolution and Method: updated CSS so `img-top-left`, `img-top-center`, and `img-top-right` are self-sufficient pinning utilities (absolute position, z-index, display) and included them in shared image styling/mobile reset rules.
+Final Fixes: top-position classes now work standalone; `img-pin` remains optional for custom positioned images.
+What succeeded: fewer class combinations to remember and lower chance of silent layout failures.
+What Failed: initial utility design had implicit dependencies.
+
+### 2026-03-05 (Follow-up 4)
+
+Agent version: Codex (GPT-5)
+Human goal: reduce layout flip-flopping where flow images stack too early based on viewport width.
+Observations: a single `max-width: 900px` rule was forcing both flow and pinned image utilities into centered stack behavior, including medium desktop windows.
+Issue's root cause: one broad breakpoint treated all image modes the same, despite different readability needs for flow vs pinned layouts.
+Resolution and Method: split responsive logic into two stages: at `<=900px`, keep flow images beside text but smaller; at `<=700px`, stack flow images for readability. Pinned utilities still reset earlier.
+Final Fixes: flow classes now behave more consistently across medium widths while preserving mobile safety.
+What succeeded: better continuity of intended "image beside text" behavior during window resizing.
+What Failed: n/a.

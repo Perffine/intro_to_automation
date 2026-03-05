@@ -86,7 +86,7 @@ Use arrow keys to navigate. Press `S` for speaker notes.
 <!-- Slide 3 -->
 
 <!-- .slide: class="content-slide dense" -->
-#### Land Acknowledgment
+### Land Acknowledgment
 
 The Toronto Reference Library is on Indigenous land. This is the traditional territory of the Haudenosaunee (ho-den-oh-sho-nee) Confederacy (aka. the Six Nations Confederacy), the Wendat, and the Mississaugas of the Credit First Nation. Toronto Public Library gratefully acknowledges these Indigenous nations for their guardianship of this land. We would also like to remind and reaffirm, as Torontonians and Canadians, our accountability to these Indigenous nations, and to all Indigenous peoples and communities living in Toronto.
 
@@ -94,28 +94,36 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 
 <img src="/images/land_ack.png" alt="Land Acknowledgment" class="spot-image" />
 
-#### *-image by NotebookLM
+<h4 class="bottom-text">*-image by NotebookLM</h4>
 
 ---
 
 <!-- Slide 4 -->
 
-<!-- .slide: class="content-slide dense" -->
+<!-- .slide: class="content-slide dense slide-4" -->
 ## Discussing Today
 
-- AI (particularly LLMs and generative), robotics (particularly humanoid) = automation
-- History, and the current state of automation
+<img src="/images/check.png" alt="Checkmark" class="img-flow-right img-sm" />
+
+- AI (particularly LLMs and generative) + robotics (particularly humanoid) = automation
+- History and current state of automation
 - Demonstrate current tools
 - Possible impacts of automation
 - Controversies
 
+<div class="clear-floats"></div>
+
 ## Not Discussing Today
+
+<img src="/images/NO_X_Gemini_Generated_Image_2budzy2budzy2bud.png" alt="No" class="img-flow-right img-sm" />
 
 - Religion
 - Psychology
 - Conspiracies
 
-Automation is a spicy topic! Please be respectful.
+<img src="/images/banner.png" alt="Respectful Banner" class="spot-image" />
+
+<div class="clear-floats"></div>
 
 ---
 
@@ -125,6 +133,8 @@ Automation is a spicy topic! Please be respectful.
 ## Mythological/Sci-Fi AI
 
 Talos (Greek. 3rd C BCE), Golem and Brazen Heads (Middle Ages), Homonculus (16th C), Frankenstein (1818), “Rossum’s Universal Robots” (1920), Iron Man (1960s), J.A.R.V.I.S (2008) [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence) [[45]](https://en.wikipedia.org/wiki/Iron_Man_(comic_book)) [[46]](https://en.wikipedia.org/wiki/J.A.R.V.I.S)
+
+
 
 ## Automata:
 

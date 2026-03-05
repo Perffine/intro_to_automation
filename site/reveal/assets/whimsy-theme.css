@@ -304,6 +304,122 @@ body {
   margin: 0;
   z-index: 1;
   text-align: left;
+  font-size: 10px;
+}
+
+.reveal .content-slide {
+  position: relative;
+}
+
+.reveal .img-sm {
+  width: min(22%, 240px);
+}
+
+.reveal .img-md {
+  width: min(32%, 360px);
+}
+
+.reveal .img-lg {
+  width: min(42%, 460px);
+}
+
+.reveal img.img-flow-right {
+  float: right;
+  display: block;
+  margin: 0 0 0 0;
+}
+
+.reveal img.img-flow-left {
+  float: left;
+  display: block;
+  margin: 0 18px 12px 0;
+}
+
+.reveal img.img-pin,
+.reveal img.img-top-left,
+.reveal img.img-top-center,
+.reveal img.img-top-right {
+  position: absolute;
+  display: block;
+  z-index: 2;
+}
+
+.reveal img.img-top-left {
+  top: 100px;
+  left: 34px;
+  right: auto;
+}
+
+.reveal img.img-top-center {
+  top: 100px;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+}
+
+.reveal img.img-top-right {
+  top: 100px;
+  left: auto;
+  right: 34px;
+}
+
+.reveal .clear-floats {
+  clear: both;
+}
+
+.reveal img.img-flow-right,
+.reveal img.img-flow-left,
+.reveal img.img-top-left,
+.reveal img.img-top-center,
+.reveal img.img-top-right,
+.reveal img.img-pin {
+  max-height: 42%;
+  object-fit: contain;
+  border: 2px solid #d5dde4;
+  border-radius: 10px;
+  background: #fff;
+}
+
+/* Medium screens: keep flow images beside text, but shrink them.
+   Only pinned images are reset to static here. */
+@media (max-width: 900px) {
+  .reveal img.img-flow-right {
+    float: right;
+    width: min(28%, 220px);
+    max-height: 180px;
+    margin: 0 0 10px 14px;
+  }
+
+  .reveal img.img-flow-left {
+    float: left;
+    width: min(28%, 220px);
+    max-height: 180px;
+    margin: 0 14px 10px 0;
+  }
+
+  .reveal img.img-top-left,
+  .reveal img.img-top-center,
+  .reveal img.img-top-right,
+  .reveal img.img-pin {
+    float: none;
+    position: static;
+    transform: none;
+    display: block;
+    width: 72%;
+    max-height: 220px;
+    margin: 8px auto 12px auto;
+  }
+}
+
+/* Small screens: stack flow images above/below content for readability. */
+@media (max-width: 700px) {
+  .reveal img.img-flow-right,
+  .reveal img.img-flow-left {
+    float: none;
+    width: 72%;
+    max-height: 220px;
+    margin: 8px auto 12px auto;
+  }
 }
 
 .reveal .source-page h3 {
