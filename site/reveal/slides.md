@@ -1,3 +1,41 @@
+<!--
+slides.md - Reveal.js Markdown deck authoring notes
+
+How this file is used:
+- Loaded by `site/reveal/index.html` via `<section data-markdown="slides.md">`.
+- Parsed by Reveal Markdown plugin into HTML slide `<section>` elements.
+- Styled by `site/reveal/assets/whimsy-theme.css`.
+
+Slide structure and separators:
+- Use `---` to start a new horizontal slide.
+- Use `--` to start a vertical child slide under the current horizontal slide.
+- Keep one clear topic per slide; use vertical children for supporting/source slides.
+`
+Slide-level metadata syntax:
+- Add slide classes/attributes with HTML comments directly above slide content:
+  - ` !-- .slide: class="content-slide dense" -- `
+  - ` !-- .slide: data-background-image="/images/example.png" -- `
+- These values are applied to that slide's generated `<section>` and are targeted by CSS.
+
+Naming conventions in this deck:
+- Slide class names are lowercase-kebab-case and composable.
+- Prefer reusable behavior classes (`dense`, `compact`, `source-page`, `hero-bg`) over one-off names.
+- Keep optional manual markers like ` !-- Slide N -- ` for human navigation while editing.
+
+Authoring patterns used here:
+- Markdown for most content (headings, lists, links).
+- Inline HTML where needed for richer layout/components (`<div class="pill-row">`, `<img ...>`).
+- Image paths are site-root style (`/images/...`) to match this site's routing.
+
+Quick edit checklist:
+- Add/update slide content first, then set ` !-- .slide: ... -- ` metadata.
+- Reuse existing classes before creating new ones in CSS.
+- Check navigation flow (left/right and up/down) after separator changes.
+- Preview in desktop + mobile dimensions after layout-heavy edits.`
+
+-->
+
+
 <!-- Slide 0 --> 
 <!-- .slide: class="title-splash" -->
 # Intro to Automation
@@ -48,7 +86,7 @@ Use arrow keys to navigate. Press `S` for speaker notes.
 <!-- Slide 3 -->
 
 <!-- .slide: class="content-slide dense" -->
-## Land Acknowledgment
+#### Land Acknowledgment
 
 The Toronto Reference Library is on Indigenous land. This is the traditional territory of the Haudenosaunee (ho-den-oh-sho-nee) Confederacy (aka. the Six Nations Confederacy), the Wendat, and the Mississaugas of the Credit First Nation. Toronto Public Library gratefully acknowledges these Indigenous nations for their guardianship of this land. We would also like to remind and reaffirm, as Torontonians and Canadians, our accountability to these Indigenous nations, and to all Indigenous peoples and communities living in Toronto.
 
@@ -86,11 +124,9 @@ Automation is a spicy topic! Please be respectful.
 <!-- .slide: class="content-slide dense" -->
 ## Mythological/Sci-Fi AI
 
-Mythological/Sci-Fi AI:
-
 Talos (Greek. 3rd C BCE), Golem and Brazen Heads (Middle Ages), Homonculus (16th C), Frankenstein (1818), “Rossum’s Universal Robots” (1920), Iron Man (1960s), J.A.R.V.I.S (2008) [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence) [[45]](https://en.wikipedia.org/wiki/Iron_Man_(comic_book)) [[46]](https://en.wikipedia.org/wiki/J.A.R.V.I.S)
 
-Automata:
+## Automata:
 
 King Mu of Zhou’s work (900's BC), Leonardo’s Robot (late 15th C), “The Turk” (1769), Industrial Revolution (Late 1700s - 1800s), Walt Disney World “Hall Of Presidents” (1971) [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)
 
