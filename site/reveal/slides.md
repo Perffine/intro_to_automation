@@ -100,7 +100,7 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 
 <!-- Slide 4 -->
 
-<!-- .slide: class="content-slide dense slide-4" -->
+<!-- .slide: class="content-slide-larger" -->
 ## Discussing Today
 
 <img src="/images/check.png" alt="Checkmark" class="img-flow-right img-sm" />

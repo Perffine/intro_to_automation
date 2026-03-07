@@ -79,12 +79,12 @@ body {
 
 .reveal {
   font-family: "Nunito", "Trebuchet MS", sans-serif;
-  font-size: 4.75vh;
+  font-size: 3.50vh;
   color: var(--text);
 }
 
 .reveal .intro-hero {
-  font-size: 1.6em;
+  font-size: 1.2em;
   font-weight: 800;
   line-height: 1.1;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 .reveal h1 {
-  font-size: 3.4em;
+  font-size: 2.4em;
 }
 
 .reveal h2 {
@@ -120,7 +120,7 @@ body {
 .reveal p,
 .reveal li,
 .reveal a {
-  font-size: 0.9em;
+  font-size: 0.75em;
 }
 
 .reveal a {
@@ -240,6 +240,11 @@ body {
 .reveal .content-slide.dense li,
 .reveal .content-slide.dense a {
   font-size: 0.72em;
+  line-height: 1.25;
+}
+
+.reveal .content-slide-larger {
+  font-size: 0.9em;
   line-height: 1.25;
 }
 
@@ -438,7 +443,7 @@ body {
 
 .spot-image {
   width: 75vw;
-  max-height: 75vh;
+  max-height: 65vh;
   object-fit: contain;
   display: block;
   margin: 10px auto 0;
