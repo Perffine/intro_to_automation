@@ -18,9 +18,9 @@ Option 1 (quick):
 
 Option 2 (local server):
 ```powershell
-python -m http.server 5173 --directory .\site
+python -m http.server 8080 --directory .\site
 ```
-Then open `http://localhost:5173`.
+Then open `http://localhost:8080`.
 
 ## Structure
 
@@ -42,9 +42,9 @@ This repo uses Reveal as the primary presentation format at `site/reveal/`.
 
 Run with local server:
 ```powershell
-python -m http.server 5173 --directory .\site
+python -m http.server 8080 --directory .\site
 ```
-Then open `http://localhost:5173/reveal/`.
+Then open `http://localhost:8080/reveal/`.
 
 Editing workflow:
 1. Update slide content in `site/reveal/slides.md`.
@@ -61,3 +61,4 @@ Notes:
 - `TEACHABLEMOMENTS.md`
 - `FORHUMANPERUSAL.md`
 - `CLASSBRAINSTORMING.md`
+- `site/reveal/AUTHORING.md`

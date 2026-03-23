@@ -248,6 +248,24 @@ body {
   line-height: 1.25;
 }
 
+.reveal .emoji-list {
+  list-style: none;
+  margin: 0.35em 0 0.9em 0;
+  padding: 0;
+}
+
+.reveal .emoji-list li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.45em;
+  align-items: start;
+  margin: 0 0 0.35em 0;
+}
+
+.reveal .emoji-list li::before {
+  content: var(--emoji);
+}
+
 .reveal .content-slide.concise h2 {
   margin-bottom: 0.2em;
 }

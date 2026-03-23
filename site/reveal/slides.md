@@ -103,23 +103,23 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 <!-- .slide: class="content-slide-larger" -->
 ## Discussing Today
 
-<img src="/images/check.png" alt="Checkmark" class="img-flow-right img-sm" />
-
-- AI (particularly LLMs and generative) + robotics (particularly humanoid) = automation
-- History and current state of automation
-- Demonstrate current tools
-- Possible impacts of automation
-- Controversies
+<ul class="emoji-list" style="--emoji:'&#x1F919;&#x1F3FD;';">
+  <li>AI (particularly LLMs and generative) + robotics (particularly humanoid) = automation</li>
+  <li>History and current state of automation</li>
+  <li>Current tools</li>
+  <li>Possible impacts of automation</li>
+  <li>Controversies</li>
+</ul>
 
 <div class="clear-floats"></div>
 
 ## Not Discussing Today
 
-<img src="/images/NO_X_Gemini_Generated_Image_2budzy2budzy2bud.png" alt="No" class="img-flow-right img-sm" />
-
-- Religion
-- Psychology
-- Conspiracies
+<ul class="emoji-list" style="--emoji:'&#x1F645;&#x1F3FD;&#x200D;&#x2642;&#xFE0F;';">
+  <li>Religion</li>
+  <li>Psychology</li>
+  <li>Conspiracies</li>
+</ul>
 
 <img src="/images/banner.png" alt="Respectful Banner" class="spot-image" />
 

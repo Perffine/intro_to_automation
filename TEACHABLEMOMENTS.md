@@ -215,3 +215,31 @@ Resolution and Method: split responsive logic into two stages: at `<=900px`, kee
 Final Fixes: flow classes now behave more consistently across medium widths while preserving mobile safety.
 What succeeded: better continuity of intended "image beside text" behavior during window resizing.
 What Failed: n/a.
+
+### 2026-03-22
+
+Agent version: Codex (GPT-5)
+Human goal: make Slide 4's emoji-prefixed lines render as one item per line in the Reveal.js deck and decide whether to use a built-in pattern or create a reusable one.
+Observations: Reveal.js does not provide a special-purpose emoji-line component here; the practical building blocks are still Markdown lists or HTML lists plus CSS.
+Issue's root cause: plain text lines prefixed with emoji are not a durable authoring pattern and are harder to reuse consistently.
+Initial implementation delivered: converted Slide 4 to semantic HTML lists with one reusable `emoji-list` class and per-list `--emoji` values.
+Human Input: asked whether Reveal had an in-built method and whether we should make something easy to reuse.
+Agent reaction and rationalle: chose a tiny reusable CSS pattern over ad-hoc line breaks because it keeps slide authoring cleaner and scales better.
+Resolution and Method: added `.emoji-list` styles in `site/reveal/assets/whimsy-theme.css` and updated `site/reveal/slides.md` to use `<ul class="emoji-list" style="--emoji:'...'">`.
+Final Fixes: Slide 4 now renders one item per line with reusable emoji bullets and no custom JavaScript.
+What succeeded: the pattern is semantic, portable, and easy to copy into future slides.
+What Failed: n/a.
+
+### 2026-03-22 (Follow-up)
+
+Agent version: Codex (GPT-5)
+Human goal: create a lightweight authoring reference for the Reveal.js workflow after returning from a different slide toolchain.
+Observations: once a deck accumulates a few reusable patterns, a short local cookbook lowers friction more than scattered comments in the main slide file.
+Issue's root cause: project conventions existed, but they were split between `slides.md`, CSS, and prior implementation memory.
+Initial implementation delivered: added `site/reveal/AUTHORING.md` with copy-paste snippets for separators, slide metadata, images, emoji lists, pills, source slides, and common gotchas.
+Human Input: asked specifically for an `authoring.md`.
+Agent reaction and rationalle: kept the guide near the deck itself so it can act like a working field manual rather than generic documentation.
+Resolution and Method: created a concise cookbook and linked it from `README.md`.
+Final Fixes: Reveal authoring patterns are now documented in one place.
+What succeeded: lowers re-entry cost after context switching to other slide frameworks.
+What Failed: n/a.

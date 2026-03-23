@@ -34,3 +34,8 @@ Suggested format:
 * Consider naming conventions that encode mutually exclusive classes (`img-flow-*` vs `img-pin-*`) and adding one comment in CSS: "Do not combine flow and pin on the same image."
 * Make placement utilities self-sufficient where possible (`img-top-right` should "just work"), and reserve combo classes for advanced cases only.
 * Expose layout breakpoints as CSS variables (`--bp-medium`, `--bp-small`) so class behavior can be tuned once without hunting through media queries.
+
+### 2026-03-22
+* A nice middle ground between raw Markdown and a heavier slide framework is a small library of "micro-components" in HTML/CSS: `emoji-list`, `pill-row`, `source-page`, `note-bottom-right`, etc.
+* If this pattern keeps working well, a short `site/reveal/AUTHORING.md` could become a copy-paste cookbook for common slide moves so the deck feels more like a system than a one-off file.
+* A future nice touch: add tiny screenshots or GIFs beside a few cookbook patterns so the authoring guide shows both the snippet and the visual result.
