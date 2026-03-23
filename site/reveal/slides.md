@@ -101,7 +101,11 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 <!-- Slide 4 -->
 
 <!-- .slide: class="content-slide-larger" -->
+
+
 ## Discussing Today
+
+
 
 <ul class="emoji-list" style="--emoji:'&#x1F919;&#x1F3FD;';">
   <li>AI (particularly LLMs and generative) + robotics (particularly humanoid) = automation</li>
@@ -132,9 +136,12 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 <!-- .slide: class="content-slide dense" -->
 ## Mythological/Sci-Fi AI
 
-Talos (Greek. 3rd C BCE), Golem and Brazen Heads (Middle Ages), Homonculus (16th C), Frankenstein (1818), “Rossum’s Universal Robots” (1920), Iron Man (1960s), J.A.R.V.I.S (2008) [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence) [[45]](https://en.wikipedia.org/wiki/Iron_Man_(comic_book)) [[46]](https://en.wikipedia.org/wiki/J.A.R.V.I.S)
+<ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
+<li>Talos (Greek. 3rd C BCE)</li><li>Golem and Brazen Heads (Middle Ages)</li><li> Homonculus (16th C)</li><li>Frankenstein (1818)</li><li>“Rossum’s Universal Robots” (1920)</li><li>Iron Man (1960s)</li><li>J.A.R.V.I.S (2008)</li> 
+</ul>
+[[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence) [[45]](https://en.wikipedia.org/wiki/Iron_Man_(comic_book)) [[46]](https://en.wikipedia.org/wiki/J.A.R.V.I.S)
 
-
+<div class="clear-floats"></div>
 
 ## Automata:
 
