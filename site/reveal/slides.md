@@ -108,11 +108,11 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 
 
 <ul class="emoji-list" style="--emoji:'&#x1F919;&#x1F3FD;';">
-  <li>AI (particularly LLMs and generative) + robotics (particularly humanoid) = automation</li>
-  <li>History and current state of automation</li>
-  <li>Current tools</li>
-  <li>Possible impacts of automation</li>
-  <li>Controversies</li>
+  <li class="fragment">AI (particularly LLMs and generative) + robotics (particularly humanoid) = automation</li>
+  <li class="fragment">History and current state of automation</li>
+  <li class="fragment">Current tools</li>
+  <li class="fragment">Possible impacts of automation</li>
+  <li class="fragment">Controversies</li>
 </ul>
 
 <div class="clear-floats"></div>
@@ -120,9 +120,9 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 ## Not Discussing Today
 
 <ul class="emoji-list" style="--emoji:'&#x1F645;&#x1F3FD;&#x200D;&#x2642;&#xFE0F;';">
-  <li>Religion</li>
-  <li>Psychology</li>
-  <li>Conspiracies</li>
+  <li class="fragment">Religion</li>
+  <li class="fragment">Psychology</li>
+  <li class="fragment">Conspiracies</li>
 </ul>
 
 <img src="/images/banner.png" alt="Respectful Banner" class="spot-image" />
@@ -137,7 +137,13 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 ## Mythological/Sci-Fi AI
 
 <ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
-<li>Talos (Greek. 3rd C BCE)</li><li>Golem and Brazen Heads (Middle Ages)</li><li> Homonculus (16th C)</li><li>Frankenstein (1818)</li><li>“Rossum’s Universal Robots” (1920)</li><li>Iron Man (1960s)</li><li>J.A.R.V.I.S (2008)</li> 
+<li class="fragment">Talos (Greek. 3rd C BCE)</li>
+<li class="fragment">Golem and Brazen Heads (Middle Ages)</li>
+<li class="fragment"> Homonculus (16th C)</li>
+<li class="fragment">Frankenstein (1818)</li>
+<li class="fragment">“Rossum’s Universal Robots” (1920)</li>
+<li class="fragment">Iron Man (1960s)</li>
+<li class="fragment">J.A.R.V.I.S (2008)</li> 
 </ul>
 [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence) [[45]](https://en.wikipedia.org/wiki/Iron_Man_(comic_book)) [[46]](https://en.wikipedia.org/wiki/J.A.R.V.I.S)
 
@@ -145,7 +151,7 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 
 ## Automata:
 
-King Mu of Zhou’s work (900's BC), Leonardo’s Robot (late 15th C), “The Turk” (1769), Industrial Revolution (Late 1700s - 1800s), Walt Disney World “Hall Of Presidents” (1971) [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)
+<li class="fragment">King Mu of Zhou’s work (900's BC), Leonardo’s Robot (late 15th C), “The Turk” (1769), Industrial Revolution (Late 1700s - 1800s), Walt Disney World “Hall Of Presidents” (1971) [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)
 
 Disney World “Hall Of Presidents”
 
