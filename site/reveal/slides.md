@@ -145,24 +145,16 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 <li class="fragment">Iron Man (1960s)</li>
 <li class="fragment">J.A.R.V.I.S (2008)</li> 
 </ul>
-[[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence) [[45]](https://en.wikipedia.org/wiki/Iron_Man_(comic_book)) [[46]](https://en.wikipedia.org/wiki/J.A.R.V.I.S)
 
-<div class="clear-floats"></div>
+
 
 ## Automata:
-
-<li class="fragment">King Mu of Zhou’s work (900's BC), Leonardo’s Robot (late 15th C), “The Turk” (1769), Industrial Revolution (Late 1700s - 1800s), Walt Disney World “Hall Of Presidents” (1971) [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)
-
-Disney World “Hall Of Presidents”
-
-Da Vinci’s Robot
-
-Iron Man
-
-Automata:
-
-King Mu of Zhou’s work (900's BC), “The Turk” (1769), Industrial Revolution (Late 1700s - 1800s), Walt Disney World “Hall Of Presidents” (1971) [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence)
-
+<ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
+<li class="fragment">King Mu of Zhou’s work (900's BC)</li>
+<li class="fragment">Leonardo’s Robot (late 15th C)</li>
+<li class="fragment">“The Turk” (1769), Industrial Revolution (Late 1700s - 1800s)</li>
+<li class="fragment">Walt Disney World “Hall Of Presidents” (1971) </li>
+</ul>
 --
 
 
