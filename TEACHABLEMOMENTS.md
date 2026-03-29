@@ -243,3 +243,17 @@ Resolution and Method: created a concise cookbook and linked it from `README.md`
 Final Fixes: Reveal authoring patterns are now documented in one place.
 What succeeded: lowers re-entry cost after context switching to other slide frameworks.
 What Failed: n/a.
+
+### 2026-03-29
+
+Agent version: Codex (GPT-5)
+Human goal: remove an unexpected extra white card/background appearing behind Reveal Slide 5.
+Observations: the issue first appeared on the first slide that had a vertical child "Sources" slide, while earlier single-layer slides looked correct.
+Issue's root cause: the theme styled every `.reveal section` as a visible card, but Reveal wraps vertical slides in a parent `.stack` section, so both the wrapper and the actual child slide received the white panel styling.
+Initial implementation delivered: narrowed the card selector in `site/reveal/assets/whimsy-theme.css` to target only leaf slide sections.
+Human Input: reported that Slide 4 looked good while Slide 5 showed a superfluous white border/background.
+Agent reaction and rationalle: fixed the selector instead of compensating with one-off slide CSS, because this is a structural Reveal behavior that will recur on any stacked slide.
+Resolution and Method: changed the global card rule from `.reveal section` to `.reveal .slides > section:not(.stack), .reveal .slides > section > section` and added a comment explaining why.
+Final Fixes: stacked slides keep their intended single visible card without the offset duplicate panel.
+What succeeded: one small selector change addressed the underlying layout model rather than the symptom.
+What Failed: n/a.

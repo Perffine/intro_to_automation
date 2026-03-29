@@ -102,10 +102,7 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 
 <!-- .slide: class="content-slide-larger" -->
 
-
 ## Discussing Today
-
-
 
 <ul class="emoji-list" style="--emoji:'&#x1F919;&#x1F3FD;';">
   <li class="fragment">AI (particularly LLMs and generative) + robotics (particularly humanoid) = automation</li>
@@ -133,7 +130,7 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 
 <!-- Slide 5 -->
 
-<!-- .slide: class="content-slide dense" -->
+<!-- .slide: class="content-slide-larger" -->
 ## Mythological/Sci-Fi AI
 
 <ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
@@ -145,8 +142,6 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 <li class="fragment">Iron Man (1960s)</li>
 <li class="fragment">J.A.R.V.I.S (2008)</li> 
 </ul>
-
-
 
 ## Automata:
 <ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
