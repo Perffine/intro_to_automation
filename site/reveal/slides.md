@@ -105,11 +105,11 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 ## Discussing Today
 
 <ul class="emoji-list" style="--emoji:'&#x1F919;&#x1F3FD;';">
-  <li class="fragment">AI (particularly LLMs and generative) + robotics (particularly humanoid) = automation</li>
-  <li class="fragment">History and current state of automation</li>
-  <li class="fragment">Current tools</li>
-  <li class="fragment">Possible impacts of automation</li>
-  <li class="fragment">Controversies</li>
+  <li class="fragment" data-fragment-index="1">AI (particularly LLMs and generative) + robotics (particularly humanoid) = automation</li>
+  <li class="fragment" data-fragment-index="2">History and current state of automation</li>
+  <li class="fragment" data-fragment-index="3">Current tools</li>
+  <li class="fragment" data-fragment-index="4">Possible impacts of automation</li>
+  <li class="fragment" data-fragment-index="5">Controversies</li>
 </ul>
 
 <div class="clear-floats"></div>
@@ -117,9 +117,9 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 ## Not Discussing Today
 
 <ul class="emoji-list" style="--emoji:'&#x1F645;&#x1F3FD;&#x200D;&#x2642;&#xFE0F;';">
-  <li class="fragment">Religion</li>
-  <li class="fragment">Psychology</li>
-  <li class="fragment">Conspiracies</li>
+  <li class="fragment" data-fragment-index="6">Religion</li>
+  <li class="fragment" data-fragment-index="7">Psychology</li>
+  <li class="fragment" data-fragment-index="8">Conspiracies</li>
 </ul>
 
 <img src="/images/banner.png" alt="Respectful Banner" class="spot-image" />
@@ -134,22 +134,29 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 ## Mythological/Sci-Fi AI
 
 <ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
-<li class="fragment">Talos (Greek. 3rd C BCE)</li>
-<li class="fragment">Golem and Brazen Heads (Middle Ages)</li>
-<li class="fragment"> Homonculus (16th C)</li>
-<li class="fragment">Frankenstein (1818)</li>
-<li class="fragment">“Rossum’s Universal Robots” (1920)</li>
-<li class="fragment">Iron Man (1960s)</li>
-<li class="fragment">J.A.R.V.I.S (2008)</li> 
+<li class="fragment" data-fragment-index="1">Talos (Greek. 3rd C BCE)</li>
+<li class="fragment" data-fragment-index="2">Golem and Brazen Heads (Middle Ages)</li>
+<li class="fragment" data-fragment-index="3"> Homonculus (16th C)</li>
+<li class="fragment" data-fragment-index="4">Frankenstein (1818)</li>
+<li class="fragment" data-fragment-index="5">“Rossum’s Universal Robots” (1920)</li>
+<li class="fragment" data-fragment-index="6">Iron Man (1960s)</li>
+<li class="fragment" data-fragment-index="7">J.A.R.V.I.S (2008)</li> 
 </ul>
 
 ## Automata:
 <ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
-<li class="fragment">King Mu of Zhou’s work (900's BC)</li>
-<li class="fragment">Leonardo’s Robot (late 15th C)</li>
-<li class="fragment">“The Turk” (1769), Industrial Revolution (Late 1700s - 1800s)</li>
-<li class="fragment">Walt Disney World “Hall Of Presidents” (1971) </li>
+<li class="fragment" data-fragment-index="8">King Mu of Zhou’s work (900's BC)</li>
+<li class="fragment" data-fragment-index="9">Leonardo’s Robot (late 15th C)</li>
+<li class="fragment" data-fragment-index="10">“The Turk” (1769), Industrial Revolution (Late 1700s - 1800s)</li>
+<li class="fragment" data-fragment-index="11">Walt Disney World “Hall Of Presidents” (1971) </li>
 </ul>
+
+<div class="img.img-flow-right">
+
+<img src="/images/iron_man.png" alt="" class="fragment" data-fragment-index="6"/>
+
+</div>
+
 --
 
 
@@ -167,7 +174,6 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 <!-- .slide: class="content-slide dense" -->
 ## Compute
 
-<ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
 <li class="fragment">350BC Aristotle's syllogisms</li>
 <li class="fragment">1600s Early Calculators</li>
 <li class="fragment">1800s Nerves and brain have electrical signals</li>
