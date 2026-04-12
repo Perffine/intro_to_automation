@@ -167,45 +167,27 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 <!-- .slide: class="content-slide dense" -->
 ## Compute
 
-Aristotle's syllogisms (350 BC)
-
-Early Calculators (1600s)
-
-Nerves and brain have electrical signals (1800s)
-
-*** 1940s Computational AI Research begins ***
-
-1943 “Artificial neurons” proposed, later called “Neural Network”
-
-1950 “Turing Test”
-
-1956 Dartmouth Workshop
-
-1997 Deep Blue defeats Gary Kasparov
-
-*** Early 2000s “Big Data” era begins ***
-
-2010 Deep Mind founded
-
-2011 Watson wins Jeopardy
-
-2012 “Deep Learning”
-
-2015 OpenAI founded
-
-2017 “Attention Is All You Need”
-
-*** 2022 ChatGPT is the fastest-growing consumer software application in history ***
-
-2025 Xania Monet, Disney/Sora.ai, Nano Banana
-
-2026 Clawdbot/moltbot/openclaw
+<ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
+<li class="fragment">350BC Aristotle's syllogisms</li>
+<li class="fragment">1600s Early Calculators</li>
+<li class="fragment">1800s Nerves and brain have electrical signals</li>
+<li class="fragment"><strong>1940s Computational AI Research begins </strong> </li>
+<li class="fragment">1943 “Artificial neurons” proposed, later called “Neural Network”</li>
+<li class="fragment">1950 “Turing Test”</li>
+<li class="fragment">1956 Dartmouth Workshop</li>
+<li class="fragment">1997 Deep Blue defeats Gary Kasparov</li>
+<li class="fragment"><strong>2000s “Big Data” era begins</strong></li>
+<li class="fragment">2010 Deep Mind founded</li>
+<li class="fragment">2011 Watson wins Jeopardy</li>
+<li class="fragment">2012 “Deep Learning”</li>
+<li class="fragment">2015 OpenAI founded</li>
+<li class="fragment">2017 “Attention Is All You Need”</li>
+<li class="fragment"><strong>2022 ChatGPT is the fastest-growing consumer software application in history </strong></li>
+<li class="fragment">2025 Xania Monet, Disney/Sora.ai, Nano Banana</li>
+<li class="fragment">2026 Clawdbot/Moltbot/Openclaw</li>
+<li class="fragment">2026 Anthropic's Mythos and Glasswing</li>
 
 [[1]](https://en.wikipedia.org/wiki/History_of_artificial_intelligence) [[47]](https://www.cbc.ca/news/entertainment/ai-artist-xania-monet-radio-billboard-chart-9.6967542) [[48]](https://www.reuters.com/business/media-telecom/disney-makes-1-billion-investment-openai-brings-characters-sora-2025-12-11/) [[57]](https://gemini.google/overview/image-generation/)
-
-Gottfried Leibniz
-
-b 1646
 
 --
 <!-- .slide: class="source-page compact" -->

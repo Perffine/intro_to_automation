@@ -17,9 +17,18 @@ Option 1 (quick):
 1. Open `site/index.html` in a browser.
 
 Option 2 (local server):
-```powershell
-python -m http.server 8080 --directory .\site
-```
+- On Linux/macOS from the repo root:
+  ```bash
+  python3 -m http.server 8080 --directory site
+  ```
+- Or from inside the `site/` folder:
+  ```bash
+  python3 -m http.server 8080 --directory .
+  ```
+- On Windows PowerShell from the repo root:
+  ```powershell
+  python -m http.server 8080 --directory .\site
+  ```
 Then open `http://localhost:8080`.
 
 ## Structure
@@ -41,9 +50,18 @@ Note: source bibliography slides `035` to `044` are intentionally replaced by `s
 This repo uses Reveal as the primary presentation format at `site/reveal/`.
 
 Run with local server:
-```powershell
-python -m http.server 8080 --directory .\site
-```
+- On Linux/macOS from the repo root:
+  ```bash
+  python3 -m http.server 8080 --directory site
+  ```
+- Or from inside the `site/` folder:
+  ```bash
+  python3 -m http.server 8080 --directory .
+  ```
+- On Windows PowerShell from the repo root:
+  ```powershell
+  python -m http.server 8080 --directory .\site
+  ```
 Then open `http://localhost:8080/reveal/`.
 
 Editing workflow:
