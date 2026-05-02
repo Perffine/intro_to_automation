@@ -98,6 +98,22 @@ Issue's root cause: "easy to edit" and "visually expressive" were treated as a s
 Initial implementation delivered: created `site/reveal/index.html`, `site/reveal/slides.md`, and `site/reveal/assets/whimsy-theme.css` as a standalone pilot.
 Human Input: approved trying the migration and requested brief framing around React.js confusion.
 Agent reaction and rationalle: implemented a hybrid approach (Markdown-first, HTML-enabled) to avoid a full rewrite while validating authoring speed and style flexibility.
+
+### 2026-05-02
+
+Agent version: Grok Code Fast 1
+Human goal: Fix image layout positioning in Reveal.js slide presentation
+Observations: User encountered layout issues with floated images in Markdown-rendered slides, requiring CSS adjustments and markup repositioning.
+Issue's root cause: Invalid class syntax and late placement of image element prevented proper float behavior.
+Initial implementation delivered: Corrected image class and moved it earlier in slide content.
+Human Input: Image still too wide and positioned low; requested further refinement.
+Agent reaction and rationale: Iteratively adjusted CSS width constraints and slide structure to achieve desired layout.
+Resolution and Method: Applied size-limiting classes and updated float styles to constrain image dimensions and improve text wrapping.
+Final Fixes: Image now floats properly beside text with appropriate sizing.
+What succeeded: Step-by-step debugging and refinement of layout using Reveal.js and custom CSS.
+What Failed: Initial markup had syntax errors that delayed proper rendering.
+
+**Project Reflection:** Human decided to "put a pin" in this project, finding the goal of an open-source, easily automatable, easily updatable presentation too complicated in practice despite the amazing and educational experience. They plan to continue with simpler sli.dev projects started from scratch. Lesson for agentic engineering: Balancing ambition with practical complexity; iterative agent-assisted development can yield great results but requires clear scope management.
 Resolution and Method: linked pilot from `site/index.html`, added README run/edit instructions, and left existing `site/slides/*.html` untouched for low-risk parallel iteration.
 Final Fixes: project now supports two coexisting delivery formats: classic static slides and Reveal pilot deck.
 What succeeded: achieved migration proof-of-concept without breaking current course pages.

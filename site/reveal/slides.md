@@ -133,6 +133,8 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 <!-- .slide: class="content-slide-larger" -->
 ## Mythological/Sci-Fi AI
 
+<img src="/images/iron_man.png" alt="Iron Man" class="img-flow-right img-md fragment" data-fragment-index="6" />
+
 <ul class="emoji-list" style="--emoji:'&#x25AA;&#xFE0F;';">
 <li class="fragment" data-fragment-index="1">Talos (Greek. 3rd C BCE)</li>
 <li class="fragment" data-fragment-index="2">Golem and Brazen Heads (Middle Ages)</li>
@@ -150,12 +152,6 @@ This land is also part of the Dish with One Spoon territory, a treaty between th
 <li class="fragment" data-fragment-index="10">“The Turk” (1769), Industrial Revolution (Late 1700s - 1800s)</li>
 <li class="fragment" data-fragment-index="11">Walt Disney World “Hall Of Presidents” (1971) </li>
 </ul>
-
-<div class="img.img-flow-right">
-
-<img src="/images/iron_man.png" alt="" class="fragment" data-fragment-index="6"/>
-
-</div>
 
 --
 
